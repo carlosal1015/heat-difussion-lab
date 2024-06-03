@@ -1,0 +1,7 @@
+animation.html: html5
+figure.autolayout: True
+figure.dpi: 750
+font.family: serif
+font.serif: Computer Modern
+text.latex.preamble: "\usepackage{mathtools}"
+text.usetex: True
