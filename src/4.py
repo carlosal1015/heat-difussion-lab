@@ -148,7 +148,7 @@ def animate(t):
             extent=(0, k, 0, k),
         )
     else:
-        if saveImpact == False:
+        if not saveImpact:
             saveImpact = True
             Lpx.append(px)
             Lpy.append(py)

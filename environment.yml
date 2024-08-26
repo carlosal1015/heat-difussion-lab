@@ -1,0 +1,10 @@
+name: heat-diffusion-lab
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python>=3.12.5
+  - matplotlib>=3.9.2
+  - scipy>=1.14.1
+  - ruff>=0.6.2
+  - ffmpeg>=7.0.2

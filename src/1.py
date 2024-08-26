@@ -12,6 +12,9 @@ from matplotlib.animation import FuncAnimation
 
 def f(x, t, α=1, ylim=5):
     from scipy.special import erf
+    """
+    TODO: Check the below formula.
+    """
 
     return 0.5 * (
         erf((ylim - x) / (np.sqrt(α * t))) - erf((-ylim - x) / (np.sqrt(α * t)))
